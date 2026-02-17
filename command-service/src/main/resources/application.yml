@@ -1,0 +1,18 @@
+server:
+  port: 8081
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health, prometheus, info
+  endpoint:
+    health:
+      show-details: when-authorized
+  metrics:
+    tags:
+      application: command-service
+
+spring:
+  kafka:
+    bootstrap-servers: localhost:9092
