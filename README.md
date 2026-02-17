@@ -76,7 +76,7 @@ flowchart LR
 **Prerequisites:** Docker and Docker Compose.
 
 ```bash
-git clone https://github.com/<your-username>/event-sourced-cqrs.git
+git clone https://github.com/<NullPoint3rDev>/event-sourced-cqrs.git
 cd event-sourced-cqrs
 docker compose up -d --build
 ```
